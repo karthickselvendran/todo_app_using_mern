@@ -32,7 +32,7 @@
 
 
 import React, { Component } from 'react';
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -43,11 +43,11 @@ class App extends Component {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
           </ul>
-
           <hr />
-
-          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
-          <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+          <Routes>
+            <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+            <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+          </Routes>
         </div>
       </HashRouter>
     );
