@@ -8,9 +8,10 @@ import './App.css';
 
 function App() {
 
+  console.log(process.env.PUBLIC_URL)
   return (
     <div>
-      <HashRouter>
+      <HashRouter basename="/">
         <ToastContainer />
         <Routes>
           <Route path={process.env.PUBLIC_URL + "/"} element={<SignIn />} />
