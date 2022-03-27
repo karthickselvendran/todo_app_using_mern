@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { TodoList } from './pages/todolist/todoList';
 import { SignIn } from './pages/signin/signin';
 import { SignUp } from './pages/signup/signup';
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <Router>
+      <HashRouter basename='/'>
         <ToastContainer />
         <Routes>
           <Route path='/' element={<SignIn />} />
@@ -23,8 +23,7 @@ function App() {
             </main>
           } />
         </Routes>
-      </Router>
-
+      </HashRouter>
     </div>
   )
 }
