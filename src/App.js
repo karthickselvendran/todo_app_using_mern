@@ -14,6 +14,7 @@ function App() {
       <HashRouter basename="/">
         <ToastContainer />
         {console.log("testing")}
+        <h1>MERN App</h1>
         <Routes>
           <Route path={process.env.PUBLIC_URL + "/"} element={<h2>Home</h2>} />
           <Route path={process.env.PUBLIC_URL + "/signin"} element={<SignIn />} />
