@@ -11,7 +11,7 @@ function App() {
   console.log(process.env.PUBLIC_URL)
   return (
     <div>
-      <HashRouter basename="/">
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <ToastContainer />
         {console.log("testing")}
         <h1>MERN App</h1>
