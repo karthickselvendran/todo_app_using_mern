@@ -13,6 +13,7 @@ function App() {
     <div>
       <HashRouter basename="/">
         <ToastContainer />
+        {console.log("testing")}
         <Routes>
           <Route path={process.env.PUBLIC_URL + "/"} element={<h2>Home</h2>} />
           <Route path={process.env.PUBLIC_URL + "/signin"} element={<SignIn />} />
