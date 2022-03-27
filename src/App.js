@@ -14,7 +14,7 @@ function App() {
       <HashRouter basename="/">
         <ToastContainer />
         <Routes>
-          <Route path={process.env.PUBLIC_URL + "/"} element={<SignIn />} />
+          <Route path={process.env.PUBLIC_URL + "/"} element={<h2>Home</h2>} />
           <Route path={process.env.PUBLIC_URL + "/signin"} element={<SignIn />} />
           <Route path={process.env.PUBLIC_URL + "/signup"} element={<SignUp />} />
           <Route path={process.env.PUBLIC_URL + "/todolist"} element={<TodoList />} />
