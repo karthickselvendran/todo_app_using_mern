@@ -2,7 +2,7 @@
   "name": "demo123",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://username.github.io/repository name",
+  "homepage": "https://karthickselvendran.github.io/todo_app_using_mern",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
