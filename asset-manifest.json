@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/repository%20name/static/css/main.cdfadc9c.css",
+    "main.js": "/repository%20name/static/js/main.cd6e8f17.js",
+    "index.html": "/repository%20name/index.html",
+    "static/media/logout.svg": "/repository%20name/static/media/logout.bb4d6b9dd3a868388739fa5da063e476.svg",
+    "main.cdfadc9c.css.map": "/repository%20name/static/css/main.cdfadc9c.css.map",
+    "main.cd6e8f17.js.map": "/repository%20name/static/js/main.cd6e8f17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdfadc9c.css",
+    "static/js/main.cd6e8f17.js"
+  ]
+}
